@@ -1,6 +1,8 @@
 # ECS750PSupportingmaterial
 This repository contains the supoorting materials for Jiadong Guo's MSc project.
-My project software includes 4 executable files, they are all Juypter Notebook documents, they can be executed in Visual Studio Code, Juypter Hub, Kaggle. I recommend to run my programs in Kaggle. Tips: if run in Visual Studio Code, Juypter Hub, some packages may need to be installed, like seaborn, pandas, wordcloud. In different situations, the dataset path may needs to change.
+My project software includes 4 executable files, they are all Juypter Notebook documents, they can be executed in Visual Studio Code, Juypter Hub, Kaggle. I recommend to run my programs in Kaggle. 
+
+Tips: if run in Visual Studio Code, Juypter Hub, some packages may need to be installed, like seaborn, pandas, wordcloud. In different situations, the dataset path may needs to change.
 
 The source code part includes 4 Juypter Notebook documents. They are:
 1) 01-tweet-comment-processor.ipynb :  It is a program that I used to process the downloaded JSON twitter comment from Postman, and store the processed dataframe in CSV files in date unit.
