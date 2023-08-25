@@ -3,6 +3,7 @@ This repository contains the supoorting materials for Jiadong Guo's MSc project.
 My project software includes 4 executable files, they are all Juypter Notebook documents, they can be executed in Visual Studio Code, Juypter Hub, Kaggle. I recommend to run my programs in Kaggle. 
 
 Tips: if run in Visual Studio Code, Juypter Hub, some packages may need to be installed, like seaborn, pandas, wordcloud, etc. In different situations, the dataset path may needs to change.
+If run in Kaggle, please open the "Internet on" switch in Notebooks-Notebook options setting, otherwise may result in False in ntlk and code error.
 
 The source code part includes 4 Juypter Notebook documents. They are:
 1) 01-tweet-comment-processor.ipynb :  It is a program that I used to process the downloaded JSON twitter comment from Postman, and store the processed dataframe in CSV files in date unit.
@@ -12,7 +13,10 @@ The source code part includes 4 Juypter Notebook documents. They are:
 
 There are five dataset folders in my support material. They are:
 1) callofdutytwittercomment : The dataset that used to store the JSON format Twitter comment documents that downloaded from Postman.
-2) twitter-entity-sentiment-analysis : The dataset from Kaggle, contains the sentiment analysis model training dataset and validation dataset.
+2) twitter-entity-sentiment-analysis : The dataset from Kaggle, contains the sentiment analysis model training dataset and validation dataset. Weblink: https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis
 3) processed-twitter-comment-2 : The dataset that used to store the CSV format Twitter comment files that transformed from callofdutytwittercomment.
 4) mwii-twitter-comment-3 : The dataset that used to store the CSV format Twitter comment with the sentiment analysis result that transformed from processed-twitter-comment-2. There is alao contains all sentiments count CSV file.
-5) result: Store the results of the most influential users analysis, also includes the original formula rank result and modified formula rank result.
+5) result: Store the results of the most influential users analysis ( 1 original formula rank result, 2 modified formula rank result), the daily tweet count and player count table.
+
+There is also a folder named "kaggle version source code", which contains the 4 Juypter Notebook that run in Kaggle platform. The user should upload them to the Kaggle and execute, the databases here can be also found in Kaggle.
+Web link: https://www.kaggle.com/jiadongguo01/datasets
